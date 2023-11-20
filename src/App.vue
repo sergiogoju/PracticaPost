@@ -1,9 +1,8 @@
 <script setup lang="ts">
 import Formulari from "./components/Formulari.vue";
 import Enviat from "./components/Enviat.vue";
-import Emoticonos from "./components/Emoticonos.vue";
 import type Entry from "./types/Entry";
-import { ref } from "vue";
+import { reactive, ref } from "vue";
 
 const entrades = ref<Entry[]>([]);
 

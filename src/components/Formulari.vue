@@ -14,9 +14,8 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, defineEmits } from "vue";
+import { reactive, ref, computed, defineEmits } from "vue";
 import Emoticonos from "@/components/Emoticonos.vue";
-import type Entry from "@/types/Entry";
 import type Emoji from "@/types/Emoji";
 
 const emit = defineEmits(["create"]);
